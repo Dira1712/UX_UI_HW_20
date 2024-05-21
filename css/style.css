@@ -1,0 +1,95 @@
+
+
+.montserrat-secondary-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.Navbar {
+    background-color: #E8DFD3;
+    height: 130px;
+}
+
+.nav {
+    position: relative;
+    float: right;
+    right: 144px;
+    top: 60px;
+}
+
+.HeroContainer {
+    position: relative;
+    background-color: #E8DFD3;
+    height: 800px;
+}
+
+.HeroSection {
+    position: relative;
+    background-color: #E8DFD3;
+    height: 800px;
+    width: 1424px;
+}
+
+.myDescriptionArea {
+    position: absolute;
+    height: 90%;
+    width: 77%;
+    background-color: #FFCD29;
+    left: 415px;
+    top: 0px;
+    margin-right: 0px;
+
+}
+
+.myPictureArea {
+    position: absolute;
+    height: 698px;
+    width: 715px;
+    background-color: #B0532A;
+    top: 102px;
+    z-index: 1;
+}
+
+.popup-btn {
+    position: absolute;
+    width: 10em;
+    height: 7em;
+    right: 90px;
+    top: 76%;
+    background-color: #FFCD29;
+    transform: rotate(-90deg);
+    border: none;
+    color: #B0532A;
+}
+
+.about-me-heading {
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+  }
+  .about-me-heading:before{
+      content: "";
+      position: absolute;
+      width: 10%;
+      height: 1px;
+      bottom: -5px;
+      left: 1%;
+      border-bottom: 5px solid #B0532A;
+  }
+
+a {
+    text-decoration: none;
+    color: #346065;
+    margin-right: 70px;
+    font-weight: 450;
+    font-size: x-large;
+}
+
+.txt-highlight {
+    background: linear-gradient(to top, #FFCD29 50%, transparent 50%);
+}
+
+
+

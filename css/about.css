@@ -1,0 +1,341 @@
+/*Navbar*/
+
+.Navbar {
+    background-color: #E8DFD3;
+    height: 130px;
+}
+
+.nav {
+    position: relative;
+    float: right;
+    right: 144px;
+    top: 60px;
+}
+
+.logo-properties {
+    position: relative;
+    left: 144px;
+    top: 36px;
+}
+
+/* Hero section */
+
+.dotDesign2 {
+    position: relative;
+    left: 170px;
+}
+
+.montserrat-secondary-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.btnProperties {
+    position: relative;
+    z-index: 4;
+    left: 42%;
+    bottom: 160px;
+    width: 250px;
+    height: 60px;
+    font-size: x-large;
+    font-family: 'Montserrat';
+    border: none;
+    border-radius: 10px;
+    color: #B0532A;
+    font-weight: 600;
+    background-color: #E8DFD3;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+    left: 35%;
+}
+
+.dotDesign1 {
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+
+.HeroContainer {
+    position: relative;
+    background-color: #E8DFD3;
+    height: 800px;
+    max-width: 100%;
+}
+
+.HeroSection {
+    position: relative;
+    background-color: #E8DFD3;
+    height: 800px;
+    width: 1424px;
+}
+
+.dpProperties {
+    height: auto;
+    width: 360px;
+    object-fit: fill;
+    position: relative;
+    left: 180px;
+    top: -130px;
+    border-radius: 150px 10px 0 0;
+}
+
+.helloElement {
+    float: right;
+    position: relative;
+    margin-right: 144px;
+    top: 100px;
+
+}
+
+.heroHeading {
+    float: right;
+    position: relative;
+    left: 245px;
+    top: 270px;
+    text-align: right;
+    color: #B0532A;
+}
+
+.myName {
+    color: #344265;
+}
+
+.welcomeBlurb {
+    float: right;
+    font-weight: 450;
+    position: relative;
+    left: 245px;
+    top: 245px;
+    text-align: right;
+    color: #346065;
+}
+
+.secondaryBtn {
+    font-size: larger;
+}
+
+.secondaryBtnArrow {
+    float: right;
+    position: relative;
+    left: 679px;
+    top: 560px;
+    height: 98px;
+}
+
+.myDescriptionArea {
+    position: absolute;
+    height: 90%;
+    width: 77%;
+    background-color: #FFCD29;
+    left: 415px;
+    top: 0px;
+    margin-right: 0px;
+
+}
+
+.myPictureArea {
+    position: absolute;
+    height: 698px;
+    width: 715px;
+    background-color: #B0532A;
+    top: 102px;
+    z-index: 1;
+}
+
+.popup-btn {
+    position: absolute;
+    width: 10em;
+    height: 7em;
+    right: 90px;
+    top: 76%;
+    background-color: #FFCD29;
+    transform: rotate(-90deg);
+    border: none;
+    color: #B0532A;
+}
+
+/*Skills and Experience*/
+
+.subheading {
+    font-weight: 450;
+    /* margin: 144px; */
+    color: #346065;
+    font-size: larger;
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.knowMoreSection {
+    background-color: #E8DFD3;
+    display: flex;
+    flex-direction: column;
+}
+
+.underlineHeading {
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.underlineHeading:before {
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 1px;
+    bottom: -5px;
+    left: 1%;
+    border-bottom: 5px solid #B0532A;
+}
+
+a {
+    text-decoration: none;
+    color: #346065;
+    margin-right: 70px;
+    font-weight: 450;
+    font-size: x-large;
+}
+
+.mySkills {
+    justify-content: space-around;
+    padding: 5em;
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 144px;
+    margin-right: 144px;
+}
+
+.column {
+    flex: 1;
+    color: #346065;
+    min-width: 300px;
+    box-sizing: border-box;
+}
+
+.footerProperties {
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+    color: #346065;
+    margin-top: -100px;
+    bottom: -69px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerProperties ul {
+    list-style-type: none;
+    float: left; 
+    margin: 144px;
+}
+
+.footerPropHeadingText {
+    color: #346065;    
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footerFlexValues {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.aboutHeadings{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.aboutDetails{
+    font-weight: 400;
+}
+
+
+
+@media (min-width: 601px) {
+    .flexContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+
+    .education {    
+        grid-column: 1 / 2;
+        bottom: 20%;
+    }
+
+    .skills {    
+        grid-column: 1 / 2;
+    }
+
+    .experience {
+        grid-column: 2 / 3;
+    }
+
+    .knowMore {
+        margin: 144px;   
+    }
+}
+
+@media (max-width: 600px) {
+    .flexContainer {
+        flex-direction: column;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .skills, .experience, .education {
+        order: 1;
+    }
+
+    .experience {
+        order: 2;
+    }
+
+    .education {
+        order: 3;
+    }
+
+    .knowMore {
+        margin: 50px;
+    }
+
+    .footerProperties {
+        flex-direction: column;
+    }
+
+    .footerProperties ul {
+        margin: 5px;
+    }
+
+    .footerProperties li {
+        /* display: inline-block; */
+        margin-right: 10px;
+    }
+
+    .footerPropHeadingText {
+        font-size: 16px;        
+    }
+
+    .footerFlexValues {
+        flex-direction: row;        
+    }
+
+    .HeroSection {
+        display: none;
+    }
+    
+}
+

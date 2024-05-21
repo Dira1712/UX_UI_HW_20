@@ -1,0 +1,183 @@
+.navbar{
+    background-color: #E8DFD3;
+    height: 130px;
+    
+}
+
+.nav-link{
+    color:#346065 !important;
+    font-size: x-large;
+    font-weight: 450;
+     margin-right: 40px;
+}
+
+.montserrat-secondary-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+.txt-highlight {
+    background: linear-gradient(to top, #FFCD29 50%, transparent 50%);
+}
+
+
+.underlineHeading {
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.underlineHeading:before {
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 1px;
+    bottom: -5px;
+    left: 1%;
+    border-bottom: 5px solid #B0532A;
+}
+
+
+
+/* Hero Section */
+
+#jumbotronImage{
+    background-image:url("../image/HeroImageDesignCase Study1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 75%;
+    height: 81vh;
+}
+
+#jumbotronText {
+    background-color: #fce9d8;
+    text-align: right;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    padding-top: 242px;
+    padding-right: 149px;
+}
+
+.jumbotronHeading {
+    color: #B0532A;
+    text-align: right;
+    font-family: Prompt;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 56px */
+}
+
+.jumbotronSubHeading {
+    color: #5F8284;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.jumbotronSubText {
+    color: #346065;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20px;
+}
+
+.vertical{
+    position: absolute;
+    width: 10em;
+    height: 7em;
+    right: 37px;
+    top: 76%;
+    transform: rotate(-90deg);
+    border: none;
+    color: #B0532A;
+}
+
+.sectionOverviewHeading {
+    color: #346065;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 54px;
+}
+
+.sectionOverviewText {
+    color: #346065;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 54px;
+}
+
+/* Project Overview */
+
+
+
+.projectOverviewMoreText {
+    color: #346065;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sectionImage {
+    width: 25rem;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.interviewsHeading {
+    color: #346065;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.interviewText {
+    color: #B4502C;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 150%; 
+    margin-left: 2%;
+}
+
+.interviewSectionlayout {
+    padding-left: 16%;
+    padding-bottom: 10%;
+}
+
+.userPersonaName {
+    color: #B0532A;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.userPersonaImage {
+    width: 50em;
+    vertical-align: middle;
+    justify-content: center;
+}
