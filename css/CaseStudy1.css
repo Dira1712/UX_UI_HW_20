@@ -181,3 +181,14 @@
     vertical-align: middle;
     justify-content: center;
 }
+
+
+.prototypingTestingSubHeading {
+    color: #346065;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 17.5px */
+}
