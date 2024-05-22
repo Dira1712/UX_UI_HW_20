@@ -1,7 +1,7 @@
 .navbar{
     background-color: #E8DFD3;
     height: 130px;
-    
+
 }
 
 .nav-link{
@@ -16,7 +16,7 @@
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    
+
 }
 
 .txt-highlight {
@@ -158,11 +158,11 @@
     font-size: 18px;
     font-style: italic;
     font-weight: 600;
-    line-height: 150%; 
+    line-height: 150%;
     margin-left: 2%;
 }
 
-.interviewSectionlayout {
+.interviewSectionLayout {
     padding-left: 16%;
     padding-bottom: 10%;
 }
