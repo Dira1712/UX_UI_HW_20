@@ -193,3 +193,15 @@
     font-weight: 500;
     line-height: 125%; /* 17.5px */
 }
+
+a.noCssAnchorTags:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
