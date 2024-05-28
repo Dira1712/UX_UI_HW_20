@@ -91,5 +91,34 @@ a {
     background: linear-gradient(to top, #FFCD29 50%, transparent 50%);
 }
 
+.projectsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content div {
+    margin-bottom: 20px;
+}
+.content div:last-child {
+    margin-bottom: 0;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 
 
