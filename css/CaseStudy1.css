@@ -1,7 +1,6 @@
 .navbar{
     background-color: #E8DFD3;
-    height: 130px;
-
+    min-height: 130px;
 }
 
 .nav-link{
@@ -16,7 +15,6 @@
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-
 }
 
 .txt-highlight {
